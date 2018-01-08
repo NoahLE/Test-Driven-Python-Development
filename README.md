@@ -45,3 +45,19 @@ a user's story  throug the application. These can also be known as acceptance or
   2. Think, then write unit tests to define how the code should behave (each line of code is covered by at least one test)
   3. Write code to get the unit test to pass (then repeat steps 2 and 3)
   4. Rerun functional tests and continue testing and developing
+
+- **Always review what you commit before you do it**
+
+- Django's workflow is similar to this:
+  - HTTP request comes in for a particular URL
+  - Django uses rules to find which view function should deal with the request
+  - The view processes the request and returns the an HTTP response
+  
+- Only solve one error at a time, don't try to over engineer solutions
+
+- Resolving errors is usually done in the following order:
+  - Look at the error
+  - Look at the test that is failing
+  - Look at where in the *test* code the failure is coming from
+  - Look at the code which is causing the error
+
