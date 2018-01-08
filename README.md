@@ -34,4 +34,14 @@ a user's story  throug the application. These can also be known as acceptance or
  
  - [Unittest docs](https://docs.python.org/3/library/unittest.html) can be found here.
  
-  
+### Chapter 3
+
+- Functional tests - test the application from the user's perspective (high level)
+
+- Unit tests - test the application from the programmer's perspective (low level)
+
+- The TDD approach is usually the following:
+  1. Write a functional test
+  2. Think, then write unit tests to define how the code should behave (each line of code is covered by at least one test)
+  3. Write code to get the unit test to pass (then repeat steps 2 and 3)
+  4. Rerun functional tests and continue testing and developing
