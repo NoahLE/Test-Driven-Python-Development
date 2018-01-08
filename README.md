@@ -14,6 +14,24 @@ These are caveats I found when getting going through the book. They're mostly no
 
 ### Chapter 1
 
-#### Section 0
+- Make sure to read [the prerequisites](https://www.obeythetestinggoat.com/book/pre-requisite-installations.html) when getting your environement set up.
 
-Make sure to read [the prerequisites](https://www.obeythetestinggoat.com/book/pre-requisite-installations.html) when getting your environement set up.
+### Chapter 2
+
+- Functional tests - See the application from the user's perspective and see how it functions. It can be used to track
+a user's story  throug the application. These can also be known as acceptance or end-to-end tests.
+  - They should always have a followable human-readable story.
+  
+- Don't make comments that repeat what the code is doing
+
+- Make sure to enable Django support if using Pycharm ![pycharm-django](docs/pycharm-enable-django.png)
+
+- Tests are organized into classes which inherit from `unittest.TestCase`
+  - All methods must start with `test_` and can contain multiple tests
+  - Descriptive method names are excellent
+  
+ - `setUp` and `tearDown` are run after each test
+ 
+ - [Unittest docs](https://docs.python.org/3/library/unittest.html) can be found here.
+ 
+  
