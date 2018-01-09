@@ -8,11 +8,11 @@ Make sure `Python 3.6.X` is installed.
 
 From the root directory, install the requirements file using `pip install -r requirements.txt`.
 
-## Notes
+Because this project has django-extensions you can run `python manage.py runserver_plus` for extra debugging functionality.
+
+## Chapter Notes
 
 These are caveats I found when getting going through the book. They're mostly notes to myself for future reference.
-
-Because this project has django-extensions you can run `python manage.py runserver_plus` for extra debugging functionality.
 
 ### Chapter 1
 
@@ -63,3 +63,6 @@ a user's story  throug the application. These can also be known as acceptance or
   - Look at where in the *test* code the failure is coming from
   - Look at the code which is causing the error
 
+### Chapter 4
+
+- Guido explaining the `any()` function [here](https://bit.ly/1iXxD18)
