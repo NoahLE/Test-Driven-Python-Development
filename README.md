@@ -12,6 +12,8 @@ From the root directory, install the requirements file using `pip install -r req
 
 These are caveats I found when getting going through the book. They're mostly notes to myself for future reference.
 
+Because this project has django-extensions you can run `python manage.py runserver_plus` for extra debugging functionality.
+
 ### Chapter 1
 
 - Make sure to read [the prerequisites](https://www.obeythetestinggoat.com/book/pre-requisite-installations.html) when getting your environement set up.
