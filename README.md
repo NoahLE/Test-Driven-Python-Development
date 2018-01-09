@@ -88,3 +88,17 @@ a user's story  throug the application. These can also be known as acceptance or
 - Source code for the book can be [found here](https://github.com/hjwp/book-example/)
 
 ### Chapter 5
+
+- A list of cool books to read can be [found here](https://www.obeythetestinggoat.com/book/bibliography.html#seceng)
+
+- [f-strings](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) are amazing
+
+- Red/Green/Refactor
+  - Start by writing a unit test (which fails)
+  - Write the simplest code to get it to pass, even if it involves cheating (green)
+  - Refactor the code to make more sense
+  - If cheating is working too well, write another test that breaks the cheating logic
+
+- If you get a `TypeError: 'FirefoxWebElement' object is not iterable`, make sure you're using `elements` instead of `element`.
+
+- Three strikes and refactor (DRY principal)
