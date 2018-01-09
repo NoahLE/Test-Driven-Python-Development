@@ -107,4 +107,9 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - `Django.db.utils.OperationalError: no such column` = migrations have not been applied yet
 
-- 
+- Each test should only test one item
+  - First section is setting up the test
+  - Second section calls the code for the test
+  - Third section makes the test assertions
+  
+ 
