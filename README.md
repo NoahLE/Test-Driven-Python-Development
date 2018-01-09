@@ -102,3 +102,9 @@ a user's story  throug the application. These can also be known as acceptance or
 - If you get a `TypeError: 'FirefoxWebElement' object is not iterable`, make sure you're using `elements` instead of `element`.
 
 - Three strikes and refactor (DRY principal)
+
+- Integration test - Tests that rely on external systems (ex: a database)
+
+- `Django.db.utils.OperationalError: no such column` = migrations have not been applied yet
+
+- 
