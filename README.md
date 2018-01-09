@@ -80,3 +80,11 @@ a user's story  throug the application. These can also be known as acceptance or
 - The `resolve(<url>)` returns which view function a URL is mapped to
 
 - Most assertX methods can be given a custom error message for more clarity
+
+- An excellent TDD diagram [is here](https://www.obeythetestinggoat.com/book/chapter_philosophy_and_refactoring.html#simple-TDD-diagram)
+
+- Double-loop TDD link [goes here](https://bit.ly/1iXzoLR)
+
+- Source code for the book can be [found here](https://github.com/hjwp/book-example/)
+
+### Chapter 5
