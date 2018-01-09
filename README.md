@@ -112,4 +112,6 @@ a user's story  throug the application. These can also be known as acceptance or
   - Second section calls the code for the test
   - Third section makes the test assertions
   
- 
+### Chapter 6
+
+-  
