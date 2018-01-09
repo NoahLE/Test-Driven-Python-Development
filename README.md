@@ -66,3 +66,15 @@ a user's story  throug the application. These can also be known as acceptance or
 ### Chapter 4
 
 - Guido explaining the `any()` function [here](https://bit.ly/1iXxD18)
+
+- Don't test constants
+
+- When refactoring, don't change functionality
+
+- You can set specific folders to have a content type like templates
+  - This is set my right-clicking on the folder and selecting `Mark directory as`
+  - ![pycharm-folders](docs/pycharm-mark-templates.png)
+  
+- You can use `repr(<thing>)` to get the raw value of an item
+
+- The `resolve(<url>)` returns which view function a URL is mapped to
