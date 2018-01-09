@@ -78,3 +78,5 @@ a user's story  throug the application. These can also be known as acceptance or
 - You can use `repr(<thing>)` to get the raw value of an item
 
 - The `resolve(<url>)` returns which view function a URL is mapped to
+
+- Most assertX methods can be given a custom error message for more clarity
