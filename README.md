@@ -114,4 +114,8 @@ a user's story  throug the application. These can also be known as acceptance or
   
 ### Chapter 6
 
--  
+- To test a specific app run `python manage.py test <app>`
+
+- Implicit waits are bad ([see article](https://martinfowler.com/articles/nonDeterminism.html))
+
+

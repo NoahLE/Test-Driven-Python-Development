@@ -2,6 +2,7 @@
 
 db.sqlite3
 geckodriver.exe
+*/migrations/*
 
 # Created by .ignore support plugin (hsz.mobi)
 ### macOS template
