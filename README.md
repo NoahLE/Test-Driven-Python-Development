@@ -127,3 +127,7 @@ a user's story  throug the application. These can also be known as acceptance or
 - Not ending URL with a slash might result in the following error if there's a redirect: `AssertionError: 301 != 200 : Couldn't retrieve content: Response code was 301 (expected 200)`
 
 - If a POST action is not specified, it will post to the current page
+
+- URLs without a trailing slash are "action" urls (they modify the database)
+
+- 
