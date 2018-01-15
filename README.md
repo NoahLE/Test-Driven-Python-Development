@@ -118,4 +118,12 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - Implicit waits are bad ([see article](https://martinfowler.com/articles/nonDeterminism.html))
 
+- YAGNI = You ain't gonna need it!
 
+- Double hashes (##) are meta-comments that explain how the test is working and why
+
+- A missing URL error might look like `AssertionError: 404 != 200 : Couldn't retrieve content: Response code was 404 (expected 200)`
+
+- Not ending URL with a slash might result in the following error if there's a redirect: `AssertionError: 301 != 200 : Couldn't retrieve content: Response code was 301 (expected 200)`
+
+- If a POST action is not specified, it will post to the current page
