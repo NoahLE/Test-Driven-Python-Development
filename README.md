@@ -130,4 +130,8 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - URLs without a trailing slash are "action" urls (they modify the database)
 
+- Foreign keys in models must be after the declared model
+
+- It's possible to delete migrations but it should never be done if the migration has been applied. A good rule of thumb is to never delete or modify a migration after it's added to VCS
+
 - 
