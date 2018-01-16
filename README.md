@@ -134,4 +134,4 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - It's possible to delete migrations but it should never be done if the migration has been applied. A good rule of thumb is to never delete or modify a migration after it's added to VCS
 
-- 
+- `.item_set` is an incredible useful reverse lookup. Can be used as <object>.item_set.all.
