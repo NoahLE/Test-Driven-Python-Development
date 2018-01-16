@@ -126,6 +126,8 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - Not ending URL with a slash might result in the following error if there's a redirect: `AssertionError: 301 != 200 : Couldn't retrieve content: Response code was 301 (expected 200)`
 
+### Chapter 7
+
 - If a POST action is not specified, it will post to the current page
 
 - URLs without a trailing slash are "action" urls (they modify the database)
@@ -135,3 +137,7 @@ a user's story  throug the application. These can also be known as acceptance or
 - It's possible to delete migrations but it should never be done if the migration has been applied. A good rule of thumb is to never delete or modify a migration after it's added to VCS
 
 - `.item_set` is an incredible useful reverse lookup. Can be used as <object>.item_set.all.
+
+### Chapter 8
+
+- 
