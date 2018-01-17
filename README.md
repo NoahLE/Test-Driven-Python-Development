@@ -144,4 +144,13 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - Bootstrap 4 uses `mx-auto` to center items. Use this to get the `test_layout_and_styling` test to pass.
 
+- It's not in the tutorial, but centering the table items makes the application look nice as well
+
 - Topics for further study: Bootstrap w/ SASS/LESS, {% static %} tag, npm/yarn
+
+### Chapter 9
+
+- Common points of deployment failure: networking, dependencies, database, static files
+
+- Some ways to combat these problems: use a staging website, run functional tests on the staging website, use a virtualenv for dependency management, use automation scripts for deployment
+
