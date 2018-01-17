@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>To-Do lists</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/base.css">
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3 jumbotron mx-auto">
             <div class="text-center">
                 <h1>{% block header_text %}{% endblock header_text %}</h1>
                 <form method="post" action="{% block form_action %}{% endblock form_action %}">
                     {% csrf_token %}
-                    <input name="item_text" type="text" id="id_new_item" placeholder="Enter a to-do item"/>
+                    <input name="item_text"
+                           id="id_new_item"
+                           class="form-control input-lg"
+                           type="text"
+                           placeholder="Enter a to-do item"/>
                 </form>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3 mx-auto">
             {% block table %}
             {% endblock table %}
         </div>

@@ -140,4 +140,8 @@ a user's story  throug the application. These can also be known as acceptance or
 
 ### Chapter 8
 
+- If the error `socket.error: [WinError 10054] An existing connection was forcibly closed by the remote host`. Add a `self.browser.refresh()` just before the `self.browser.quit()` in `tearDown` to get rid of them.
+
+- Bootstrap 4 uses `mx-auto` to center items. Use this to get the `test_layout_and_styling` test to pass.
+
 - 
