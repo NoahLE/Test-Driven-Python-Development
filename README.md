@@ -144,4 +144,4 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - Bootstrap 4 uses `mx-auto` to center items. Use this to get the `test_layout_and_styling` test to pass.
 
-- 
+- Topics for further study: Bootstrap w/ SASS/LESS, {% static %} tag, npm/yarn
