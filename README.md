@@ -154,3 +154,7 @@ a user's story  throug the application. These can also be known as acceptance or
 
 - Some ways to combat these problems: use a staging website, run functional tests on the staging website, use a virtualenv for dependency management, use automation scripts for deployment
 
+- To set an enviromental variable for a single command use: `STAGING_SERVER=superlists-staging.ottg.eu python manage.py test functional_tests`
+
+- DigitalOcean setup guide [is here](https://github.com/hjwp/Book-TDD-Web-Dev-Python/blob/master/server-quickstart.md)
+
